@@ -623,7 +623,7 @@ facebook_comments:
 # https://github.com/imaegoo/twikoo
 twikoo:
   # 部署 Twikoo 后端后，把地址填到这里（Vercel 部署填 https://xxx.vercel.app）
-  envId:
+  envId: https://twikoorepo-mu.vercel.app
   region:
   # Use Twikoo visitor count as the page view count
   visitor: false
