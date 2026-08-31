@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Blog From LZYH
+title: 'Irainy的无垠之海'
 subtitle: '就是这样，使劲走路！'
 description: '这是我的第一个博客，很开心，因为它将记录我想要的记录'
 keywords: java,mySQL,python,软工人类
@@ -13,7 +13,7 @@ timezone: 'Asia/Shanghai'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://smallirainy.github.io
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -101,4 +101,6 @@ theme: butterfly
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/smallirainy/smallirainy.github.io.git
+  branch: main
